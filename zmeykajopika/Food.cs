@@ -11,6 +11,11 @@ namespace zmeykajopika
     public class Food
     {
         public int x, y;
+        public Food(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
         public void DrawFood(Graphics g)
         {
             Random random = new Random();
